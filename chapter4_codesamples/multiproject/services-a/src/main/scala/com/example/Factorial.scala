@@ -5,9 +5,9 @@ object Factorial {
     println(factorial(5))
   }
 
-  def factorial(n: Int, acc:Int = 0): Int = {
-    if(n == 0){ acc }
-    else factorial(n-1, acc+n)
+  def factorial(n:Int):Int = {
+    if (n==0) { 1 }
+    else { n * factorial(n-1) }
   }
 
   def testCore() = Core.testMethod()
