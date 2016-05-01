@@ -28,7 +28,26 @@ Just clone the repository.
 
 ## Usage
 
-You may run the examples using "sbt" in command line (`sbt run` will do the trick).
+You may run the examples using "sbt" in command line and then
+looking over the sub projects that relate to the code examples for chapters 4/7
+
+`> projects`
+
+```
+[info]   * ch04MultiProject
+[info]     ch07IntegrationTests
+[info]     ch07UnitTests
+[info]     core
+[info]     root
+[info]     servicesa
+[info]     servicesb
+```
+
+you'll note that the simple sbt project doesn't adhere to the naming convention, and thats
+because I didnt want to modfiy the simple example, since its just that, the simpliest example
+of a sbt project setup.
+
+For any of the integration/unit tests, go ahead a switch the desired project and run `test`
 
 ## Contributing
 

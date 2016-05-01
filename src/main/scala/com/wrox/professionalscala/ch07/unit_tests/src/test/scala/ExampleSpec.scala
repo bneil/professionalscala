@@ -1,5 +1,3 @@
-package com.example.unittest
-
 import collection.mutable.Stack
 import org.scalatest._
 

@@ -1,4 +1,4 @@
-package com.professionalscala.simulation
+package com.wrox.professionalscala.ch07.integration_tests.src.test.scala.com.professionalscala.simulation
 
 import io.gatling.core.scenario.Simulation
 import io.gatling.core.Predef._

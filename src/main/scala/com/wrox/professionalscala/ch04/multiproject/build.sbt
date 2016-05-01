@@ -3,7 +3,7 @@ import Dependencies._
 scalaVersion in Global := "2.11.7"
 
 lazy val buildSettings = Seq(
-  organization := "com.example",
+  organization := "com.wrox.professionalscala",
   description := "the root description.",
   version := "1.0.0",
   scalaVersion := "2.11.7"

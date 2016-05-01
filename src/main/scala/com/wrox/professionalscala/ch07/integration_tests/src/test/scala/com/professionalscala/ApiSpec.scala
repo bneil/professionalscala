@@ -17,7 +17,7 @@ class ApiSpec extends FlatSpec with ShouldMatchers with HtmlUnit with Eventually
   "This is a google search for Groundhog Day" should "should be greater than 90%" in {
     go to "http://www.google.com"
     click on "q"
-    textField("q").value = "Groudhog Day Rotten Tomatoes"
+    textField("q").value = "Groundhog Day Rotten Tomatoes"
     submit()
     eventually {
       val rawRating = find(cssSelector("div.f.slp")).get.underlying.getText
